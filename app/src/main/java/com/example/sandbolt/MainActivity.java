@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
             getSupportFragmentManager().beginTransaction()
                     .replace(R.id.fragment_container, new WelcomeFragment())
                     .commit();
+            //test
         }
     }
 }
